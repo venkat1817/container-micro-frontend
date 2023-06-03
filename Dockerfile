@@ -1,7 +1,6 @@
-# FROM reactjs
-# WORKDIR /build
-# COPY ./build
-# # EXPOSE 80
+# FROM reactjs 
+# WORKDIR /build 
+# COPY . /build 
 # CMD ['npm start']
 
 FROM node:alpine AS build_stage
